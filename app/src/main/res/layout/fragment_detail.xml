@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/DetailFragment"
+    android:clickable="true"
+    android:background="@color/topnewsbg"
+    tools:context=".ui.detail.DetailFragment"
+    android:focusable="true">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/whitebg"
+        android:elevation="40dp"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageBack"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="22dp"
+            android:src="@drawable/check_email_element_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageFont"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="70dp"
+            android:elevation="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_fontsizenormal"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/imageShare"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="20dp"
+            android:elevation="10dp"
+            android:src="@drawable/ic_share"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:focusable="true" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill_vertical"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutToolBar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/detailTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="bottom"
+                android:text="El PP, contra la España multinivel de Sánchez: ERC logra privilegios y los que cumplen la ley pagan el pato"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/detailTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="28dp"
+                android:gravity="bottom"
+                android:textAllCaps="true"
+                android:text="2 AUGUST 2021 AT 12:31"
+                android:textColor="@color/time"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detailTitle" />
+
+            <TextView
+                android:id="@+id/channelTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:gravity="bottom"
+                android:text="PortalTIC - España | noticias e información de actualidad"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="@+id/detailTitle"
+                app:layout_constraintTop_toBottomOf="@+id/detailTime" />
+
+            <ImageView
+                android:id="@+id/detailImage"
+                android:layout_width="match_parent"
+                android:layout_height="169dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="14dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/channelTitle" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonspeak"
+                android:layout_width="45dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="164dp"
+                android:background="@drawable/ic_audio"
+                app:layout_constraintBottom_toBottomOf="@+id/detailImage"
+                app:layout_constraintStart_toStartOf="@+id/detailImage"
+                app:layout_constraintTop_toBottomOf="@+id/channelTitle">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <TextView
+                android:id="@+id/detailPhoto"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="bottom"
+                android:text="El secretario general del PP, Teodoro García Egea, en una entrevista con Europa Press - Eduardo Parra - Europa Press"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="@+id/detailImage"
+                app:layout_constraintStart_toStartOf="@+id/detailImage"
+                app:layout_constraintTop_toBottomOf="@+id/detailImage" />
+
+            <TextView
+                android:id="@+id/detailContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center|start"
+                android:paddingBottom="60dp"
+                android:text="El PP, contra la España multinivel de Sánchez: ERC logra privilegios y los que cumplen la ley pagan el pato
+
+MADRID, 2 Ago. (EUROPA PRESS) - El secretario general del PP, Teodoro García Egea, ha arremetido duramente contra la España multinivel que quiere impulsar el PSOE que "
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/buttonGoWeb"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detailPhoto" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonGoWeb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Go to website"
+                android:textColor="@color/goweb"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/ic_web"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:textAllCaps="false"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/buttongoweb"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonSave"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:drawableStart="@drawable/ic_favoritos"
+                android:background="@drawable/buttonsave"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detailTitle" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSave2"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:drawableStart="@drawable/ic_favoritos"
+        android:background="@drawable/buttonsave"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutToolBar" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/progressbar"
+        android:progressTint="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nestedScroll" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

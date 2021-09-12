@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.upsa.europapress.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nacionalFragment"
+        android:name="com.upsa.europapress.ui.nacional.NacionalFragment"
+        android:label="nacional_fragment"
+        tools:layout="@layout/fragment_nacional" />
+    <fragment
+        android:id="@+id/internacionalFragment"
+        android:name="com.upsa.europapress.ui.internacional.InternacionalFragment"
+        android:label="fragment_internacional"
+        tools:layout="@layout/fragment_internacional" />
+    <fragment
+        android:id="@+id/economiaFragment"
+        android:name="com.upsa.europapress.ui.economia.EconomiaFragment"
+        android:label="fragment_economia"
+        tools:layout="@layout/fragment_economia" />
+    <fragment
+        android:id="@+id/deportesFragment"
+        android:name="com.upsa.europapress.ui.deportes.DeportesFragment"
+        android:label="fragment_deportes"
+        tools:layout="@layout/fragment_deportes" />
+    <fragment
+        android:id="@+id/culturaFragment"
+        android:name="com.upsa.europapress.ui.cultura.CulturaFragment"
+        android:label="fragment_cultura"
+        tools:layout="@layout/fragment_cultura" />
+    <fragment
+        android:id="@+id/sociedadFragment"
+        android:name="com.upsa.europapress.ui.sociedad.SociedadFragment"
+        android:label="fragment_sociedad"
+        tools:layout="@layout/fragment_sociedad" />
+    <fragment
+        android:id="@+id/cienciaFragment"
+        android:name="com.upsa.europapress.ui.ciencia.CienciaFragment"
+        android:label="fragment_ciencia"
+        tools:layout="@layout/fragment_ciencia" />
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.upsa.europapress.ui.favorite.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+
+</navigation>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <item android:title="Sync Cloud">
+        <menu>
+            <item
+                android:id="@+id/favoriteFragment"
+                android:icon="@drawable/ic_favorite"
+                android:title="Favorites" />
+
+        </menu>
+    </item>
+
+    <item android:title="Categories">
+
+    <!--<group android:checkableBehavior="single">-->
+        <menu>
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/ic_fire_flame"
+            android:title="Top News"/>
+        <item
+            android:id="@+id/nacionalFragment"
+            android:icon="@drawable/ic_spain"
+            android:title="Nacional" />
+        <item
+            android:id="@+id/internacionalFragment"
+            android:icon="@drawable/ic_internacional"
+            android:title="Internacional" />
+        <item
+            android:id="@+id/economiaFragment"
+            android:icon="@drawable/ic_euro"
+            android:title="Economía" />
+        <item
+            android:id="@+id/deportesFragment"
+            android:icon="@drawable/ic_deporte"
+            android:title="Deportes" />
+        <item
+            android:id="@+id/culturaFragment"
+            android:icon="@drawable/ic_cultura"
+            android:title="Cultura" />
+        <item
+            android:id="@+id/sociedadFragment"
+            android:icon="@drawable/ic_sociedad"
+            android:title="Sociedad" />
+        <item
+            android:id="@+id/cienciaFragment"
+            android:icon="@drawable/ic_ciencia"
+            android:title="Ciencia" />
+        </menu>
+   <!-- </group> -->
+    </item>
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="whitebg">#F2F2F2</color>
+    <color name="topnewsbg">#F2F2F2</color>
+    <color name="bannertitle">#FFFFFFFF</color>
+    <color name="profilestatus">#0A0D34</color>
+    <color name="navitem">#FF000000</color>
+    <color name="goweb">#FFFFFFFF</color>
+    <color name="time">#565357</color>
+    <color name="statusbar">#1E3231</color>
+    <color name="onboarding">#32AADC</color>
+    <color name="signin">#28ABE3</color>
+    <color name="signup">#FFC853</color>
+    <color name="viewpager">#265FD3</color>
+    <color name="splash">#FFFFFF</color>
+    <color name="thirdscreen">#4081F7</color>
+    <color name="signinbg">#FFFFFFFF</color>
+    <color name="edittext">#29ABE3</color>
+    <color name="edittext1">#FFC953</color>
+    <color name="edittext_">#FFC953</color>
+    <color name="edittext_1">#F2F2F2</color>
+</resources>

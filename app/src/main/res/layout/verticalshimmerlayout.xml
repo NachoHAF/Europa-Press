@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#F2F2F2F2">
+
+    <LinearLayout
+        android:id="@+id/repeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@color/browser_actions_bg_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="8dp"
+                android:background="@color/browser_actions_bg_grey" />
+
+            <View
+                android:layout_width="122dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/browser_actions_bg_grey" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/repeat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/repeat">
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@color/browser_actions_bg_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="8dp"
+                android:background="@color/browser_actions_bg_grey" />
+
+            <View
+                android:layout_width="122dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/browser_actions_bg_grey" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/repeat2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/repeat1">
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@color/browser_actions_bg_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="8dp"
+                android:background="@color/browser_actions_bg_grey" />
+
+            <View
+                android:layout_width="122dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/browser_actions_bg_grey" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/repeat3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/repeat2">
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@color/browser_actions_bg_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="8dp"
+                android:background="@color/browser_actions_bg_grey" />
+
+            <View
+                android:layout_width="122dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/browser_actions_bg_grey" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/repeat4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/repeat3">
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@color/browser_actions_bg_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="8dp"
+                android:background="@color/browser_actions_bg_grey" />
+
+            <View
+                android:layout_width="122dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/browser_actions_bg_grey" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/repeat5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/repeat4">
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@color/browser_actions_bg_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="8dp"
+                android:background="@color/browser_actions_bg_grey" />
+
+            <View
+                android:layout_width="122dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/browser_actions_bg_grey" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/repeat6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/repeat5">
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@color/browser_actions_bg_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="8dp"
+                android:background="@color/browser_actions_bg_grey" />
+
+            <View
+                android:layout_width="122dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/browser_actions_bg_grey" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

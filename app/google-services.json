@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "97990114920",
+    "firebase_url": "https://europa-press-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "europa-press",
+    "storage_bucket": "europa-press.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97990114920:android:c1346f38882749a1f485dd",
+        "android_client_info": {
+          "package_name": "com.upsa.europapress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97990114920-ogpeusg41gtps583tnj4qus4h31di7t6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm2r3x8xGQdWF6rSddZS1Pz98dN-CSW7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97990114920-ogpeusg41gtps583tnj4qus4h31di7t6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

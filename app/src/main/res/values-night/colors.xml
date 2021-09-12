@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#e2e4ee</color>
+    <color name="white">#92929C</color>
+    <color name="whitebg">#2A2C37</color>
+    <color name="topnewsbg">#373737</color>
+    <color name="bannertitle">#FFFFFF</color>
+    <color name="profilestatus">#2A2C37</color>
+    <color name="navitem">#92929C</color>
+    <color name="goweb">#FFFFFFFF</color>
+    <color name="time">#bec0d8</color>
+    <color name="statusbar">#2A2C37</color>
+    <color name="signinbg">#2A2C37</color>
+    <color name="signin">#2A2C37</color>
+    <color name="signup">#2A2C37</color>
+</resources>

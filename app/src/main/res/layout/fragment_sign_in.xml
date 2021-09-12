@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/signinbg"
+    tools:context=".ui.signin.SignInFragment">
+
+
+    <ImageView
+        android:id="@+id/sign_in_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sign_in_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/sign_in_element_1"
+        android:layout_width="45dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sign_in_element_1"
+        app:layout_constraintEnd_toEndOf="@+id/sign_in"
+        app:layout_constraintStart_toStartOf="@+id/sign_in"
+        app:layout_constraintTop_toBottomOf="@+id/sign_in" />
+
+    <TextView
+        android:id="@+id/sign_in"
+        android:layout_width="75dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center"
+        android:text="@string/sign_in"
+        android:textAppearance="@style/sign_in"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/sign_up"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="75dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="36dp"
+        android:text="@string/sign_up"
+        android:textAppearance="@style/sign_in"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="255dp"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#c0c2cc"
+        android:theme="@style/MyEditText"
+        app:layout_constraintBottom_toBottomOf="@+id/sign_in_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_in_element_1"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="255dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#c0c2cc"
+        android:theme="@style/MyEditText"
+        app:layout_constraintBottom_toBottomOf="@+id/sign_in_background"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/sign_in_B"
+        android:layout_width="102dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="56dp"
+        android:text="@string/sign_in"
+        android:textAppearance="@style/sign_in_B"
+        app:layout_constraintBottom_toTopOf="@+id/forget_pass"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+    <TextView
+        android:id="@+id/forget_pass"
+        android:layout_width="115dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/forget_pass"
+        android:textAppearance="@style/forget_pass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/sign_in_element_2"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/sign_in_element_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toTopOf="@+id/sign_in_B" />
+
+    <View
+        android:id="@+id/sign_in_element_3"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/sign_in_element_3"
+        app:layout_constraintStart_toStartOf="@+id/sign_in_element_2"
+        app:layout_constraintTop_toTopOf="@+id/sign_in_element_2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
